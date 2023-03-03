@@ -18,7 +18,7 @@ A few takes after some time studying Django:
   already solved and it's been around since 2005. I'd consider a few things before choosing it: does
   anyone on the team already knows Django and can ramp up others? Is our client another business?
   How big is the product? And things like that. Nonetheless, I'm inclined to use FastAPI because of
-  autodocumentation, easy of use, shallow learning curve, async/type hints built in support, but
+  autodocumentation, ease of use, shallow learning curve, async/type hints built in support, but
   anyway, I'm still just a noob.
 
 #### Notes from the book
