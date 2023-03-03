@@ -35,3 +35,35 @@ A few takes after some time studying Django:
 How Django works:
 
 ![Django 4 by Example](./Django%204%20by%20Example.png)
+
+#### Running the blog app
+
+To run this app clone it on your machine and then create a virtual environment:
+
+```bash
+python3 -m venv .venv
+```
+
+Activate the virtual environment:
+
+```bash
+source .venv/bin/activate
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Enter project folder:
+
+```bash
+cd mysite
+```
+
+Run server:
+
+```bash
+python manage.py runserver
+```

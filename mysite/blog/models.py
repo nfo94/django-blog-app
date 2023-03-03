@@ -14,7 +14,7 @@ class Post(models.Model):
         User, on_delete=models.CASCADE, related_name="blog_posts"
     )
     body = models.TextField()
-    published = models.DateTimeField(default=timezone.now)
+    publish = models.DateTimeField(default=timezone.now)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
     status = models.CharField(
@@ -28,8 +28,8 @@ class Post(models.Model):
         the query. We indicate descending order by using a hyphen before the field name, -publish.
         Posts will be returned in reverse chronological order by default."""
 
-        ordering = ["-published"]
-        indexes = [models.Index(fields=["-published"])]
+        ordering = ["-publish"]
+        indexes = [models.Index(fields=["-publish"])]
 
     def __str__(self):
         return self.title
