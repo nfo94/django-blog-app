@@ -1,3 +1,4 @@
 Django==4.1.7
 black==23.1.0
 flake8==6.0.0
+djhtml==3.0.3
