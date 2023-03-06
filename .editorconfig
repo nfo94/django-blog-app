@@ -13,3 +13,9 @@ insert_final_newline = true
 
 [*.md]
 indent_size = 2
+
+[*.html]
+indent_size = 2
+
+[*.css]
+indent_size = 2
