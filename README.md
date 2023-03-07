@@ -67,3 +67,5 @@ Run server:
 ```bash
 python manage.py runserver
 ```
+
+Check http://localhost:8000
